@@ -3,12 +3,13 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="add_note">Add Note.</string>
-    <string name="enter_the_title">Enter the title</string>
+    <string name="enter_new_habit">Enter new habit</string>
     <string name="enter_the_description">Enter the description</string>
     <string name="add_new_task">Add New Task</string>
-    <string name="enter_the_task_titile">enter the task titile</string>
-    <string name="enter_the_task_description">enter the task description</string>
-    <string name="edit_task_details">Edit Task Details..</string>
+    <string name="enter_the_habit_titile">Enter the habit titile</string>
+    <string name="enter_the_habit_description">Enter the habit description</string>
+    <string name="edit_habit_details">Edit Habit Details</string>
     <string name="description">Description</string>
     <string name="task_title">Task Title</string>
+    <string name="habit_title">Habbit title</string>
 </resources>

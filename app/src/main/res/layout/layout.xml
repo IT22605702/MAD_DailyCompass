@@ -24,7 +24,7 @@
                 android:layout_weight="200"
                 android:textColor="@color/primary"
                 android:fontFamily="sans-serif"
-                android:text="@string/task_title"
+                android:text="@string/habit_title"
                 android:textStyle="bold"
                 android:textSize="18sp"/>
 

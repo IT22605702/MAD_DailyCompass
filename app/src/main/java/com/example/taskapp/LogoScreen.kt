@@ -1,25 +1,22 @@
 package com.example.taskapp
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import androidx.appcompat.app.AppCompatActivity
 
 class LogoScreen : AppCompatActivity() {
+    private val handler = Handler(Looper.getMainLooper())
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_logo_screen)
 
-//        private val handler = Handler(Looper.getMainLooper())
-//
-//        override fun onCreate(savedInstanceState: Bundle?) {
-//            super.onCreate(savedInstanceState)
-//            setContentView(R.layout.activity_main)
-//
-//            // Delayed navigation to another activity
-//            handler.postDelayed({
-//                startActivity(Intent(this, PlayActivity::class.java))
-//                finish()
-//            }, 5000L) // 5000 milliseconds = 5 seconds
-//                }
+        // Delayed navigation to another activity
+        handler.postDelayed({
+            startActivity(Intent(this, OnboardScreen::class.java))
+            finish()
+        }, 2000L) // 5000 milliseconds = 5 seconds
     }
-
 }
